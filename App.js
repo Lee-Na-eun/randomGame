@@ -16,7 +16,7 @@ function main() {
 }
 
 function random() {
-  // indexOf를 랜덤화 시켜서 배열 중 하나를 고르게 시키면 어떨까
+  // 배열의 순서를 랜덤화 시켜서 배열 중 하나를 고르게 시키면 어떨까
   //   return arr[Math.floor(Math.random() * arr.length)];
   // 홀 짝 중에 하나가 랜덤하게 나오는데 그 이유를 아직 잘 모르겠음(보류)
   let oneTwo = Math.floor(Math.random() * 2); // 계속해서 랜덤한 숫자 1,2중에서 나옴
