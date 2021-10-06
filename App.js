@@ -7,14 +7,14 @@ function main() {
 
     if (input === '홀' || input === '짝') {
       if (input === random()) {
-        console.log('정답입니다!');
+        console.log('딩동댕!! 정답입니다!');
         break;
       } else {
-        console.log('틀렸습니다...');
+        console.log('땡!! 틀렸습니다!');
         break;
       }
     } else {
-      console.log('홀,짝 중에 하나를 골라주세요');
+      console.log('정확하게 입력해주세요. 홀, 짝 중 선택해야 합니다!');
       console.log();
     }
   }
