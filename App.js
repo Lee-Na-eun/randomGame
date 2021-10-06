@@ -1,17 +1,22 @@
 import * as readline from 'readline-sync';
 
 function main() {
-  console.log('홀,짝 중 고르세요');
-  const input = readline.question();
+  while (true) {
+    console.log('홀,짝 중 고르세요');
+    const input = readline.question();
 
-  if (input === '홀' || input === '짝') {
-    if (input === random()) {
-      console.log('정답입니다!');
+    if (input === '홀' || input === '짝') {
+      if (input === random()) {
+        console.log('정답입니다!');
+        break;
+      } else {
+        console.log('틀렸습니다...');
+        break;
+      }
     } else {
-      console.log('틀렸습니다...');
+      console.log('홀,짝 중에 하나를 골라주세요');
+      console.log();
     }
-  } else {
-    console.log('홀,짝 중에 하나를 골라주세요');
   }
 }
 
