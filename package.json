@@ -5,12 +5,14 @@
   "name": "randomgame1",
   "version": "1.0.0",
   "main": "App.js",
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/readline-sync": "^1.4.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node App.ts"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
-  "type": "module"
+  "description": ""
 }
